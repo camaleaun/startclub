@@ -21,5 +21,11 @@
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0"
   },
-  "keywords": []
+  "keywords": [],
+  "scripts": {
+    "install": "grunt",
+    "serve": "grunt",
+    "sass": "grunt sass"
+  }
 }
+

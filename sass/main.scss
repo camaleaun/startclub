@@ -1,0 +1,68 @@
+/*!
+ * Bootstrap v2.0.0 (http://startclub.com.br)
+ * Copyright 2016-2017 Company
+ * Licensed under LICENSE
+ */
+
+// Core variables and mixins
+@import "variables";
+@import "twbs/bootstrap/variables";
+@import "twbs/bootstrap/mixins";
+
+// Components
+@import "navbar";
+
+/*.navbar-brand {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  width: 64px;
+  height: 50px;
+  padding: 4px 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 34px;
+  background-image: url(images/logo-icon.png);
+  position: relative;
+  z-index: 1;
+
+  .navbar-inverse & {
+    @media (max-width: @grid-float-breakpoint-max) {
+      background-image: url(images/logo-icon-inverse.png);
+    }
+  }
+
+  @media (min-width: @grid-float-breakpoint) {
+    width: 188px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-size: 158px;
+    margin-top: 15px;
+    .navbar & {
+      background-image: url(images/logo.png);
+      background-image: url(images/logo.svg);
+    }
+  }
+
+  @media (min-width: @screen-md-min) {
+    margin-top: 30px;
+  }
+
+  @media (min-width: @screen-lg-min) {
+    margin-top: 23px;
+    margin-bottom: 23px;
+  }
+}
+
+.navbar-brand {
+  background-image: url(images/logo-icon.svg);
+
+  .navbar-inverse & {
+    @media (max-width: @grid-float-breakpoint-max) {
+      background-image: url(images/logo-icon-inverse.svg);
+    }
+  }
+}*/
