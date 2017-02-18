@@ -6,8 +6,68 @@
 // Brand/project name
 
 .navbar-brand {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  width: 111px;
+  height: 50px;
+  padding: 8px 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-image: url(../img/startclub-logo-xs.png);
+  background-image: url(../img/startclub-logo-xs.svg);
+  position: relative;
+  z-index: 1;
+
   .navbar & {
     color: red;
+  }
+}
+
+
+// Navbar toggle
+//
+// Custom button for toggling the `.navbar-collapse`, powered by the collapse
+// JavaScript plugin.
+
+.navbar-toggle {
+  border-radius: 0;
+
+  // Bars
+  .icon-bar {
+    display: block;
+    width: 20px;
+    height: 3px;
+    border-radius: 0;
+  }
+  .icon-bar + .icon-bar {
+    margin-top: 3px;
+  }
+}
+
+
+// Alternate navbars
+// --------------------------------------------------
+
+// Default navbar
+.navbar-default {
+  background-color: $navbar-default-bg;
+  border-color: $navbar-default-border;
+
+  .navbar-toggle {
+    border-color: $navbar-default-toggle-border-color;
+    &:hover,
+    &:focus {
+      background-color: $navbar-default-toggle-hover-bg;
+    }
+
+    .icon-bar {
+      background-color: $navbar-default-toggle-icon-bar-bg;
+    }
   }
 }
 

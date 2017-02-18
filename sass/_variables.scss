@@ -1,0 +1,26 @@
+//
+// Variables
+// --------------------------------------------------darken($link-color, 15%) !default;
+
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+//** Background color for `<body>`.
+$body-bg:               #448aff !default;
+
+
+//== Navbar
+//
+//##
+
+// Basics of a navbar
+$navbar-default-color:             #777 !default;
+$navbar-default-bg:                #fff !default;
+$navbar-default-border:            #fff !default;
+
+// Navbar toggle
+$navbar-default-toggle-hover-bg:           transparent !default;
+$navbar-default-toggle-icon-bar-bg:        #4caf50 !default;
+$navbar-default-toggle-border-color:       transparent !default;

@@ -2,4 +2,4 @@
  * Bootstrap v2.0.0 (http://startclub.com.br)
  * Copyright 2016-2017 Company
  * Licensed under LICENSE
- */.navbar .navbar-brand{color:red}
+ */body{background-color:#448aff}.navbar-brand{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;padding:0;width:111px;height:50px;padding:8px 15px;background-position:center;background-repeat:no-repeat;background-size:50px;background-image:url(../img/startclub-logo-xs.png);background-image:url(../img/startclub-logo-xs.svg);position:relative;z-index:1}.navbar .navbar-brand{color:red}.navbar-toggle{border-radius:0}.navbar-toggle .icon-bar{display:block;width:20px;height:3px;border-radius:0}.navbar-toggle .icon-bar+.icon-bar{margin-top:3px}.navbar-default{background-color:#fff;border-color:#fff}.navbar-default .navbar-toggle{border-color:transparent}.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{background-color:transparent}.navbar-default .navbar-toggle .icon-bar{background-color:#4caf50}
