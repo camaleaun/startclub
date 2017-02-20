@@ -3,6 +3,16 @@
 // --------------------------------------------------
 
 
+// Wrapper and base class
+//
+// Provide a static navbar from which we expand to create full-width, fixed, and
+// other navbar variations.
+
+.navbar {
+  border: 0;
+}
+
+
 // Brand/project name
 
 .navbar-brand {
@@ -12,16 +22,21 @@
   background-color: transparent;
   border: 0;
   padding: 0;
-  width: 111px;
+  width: 214px;
   height: 50px;
   padding: 8px 15px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 50px;
+  background-size: 184px;
   background-image: url(../img/startclub-logo-xs.png);
   background-image: url(../img/startclub-logo-xs.svg);
   position: relative;
   z-index: 1;
+
+  @media (max-width: $grid-float-breakpoint-max) {
+    left: 50%;
+    margin-left: -107px;
+  }
 
   .navbar & {
     color: red;
@@ -63,6 +78,10 @@
     &:hover,
     &:focus {
       background-color: $navbar-default-toggle-hover-bg;
+
+      .icon-bar {
+        background-color: $navbar-default-toggle-hover-icon-bar-bg;
+      }
     }
 
     .icon-bar {

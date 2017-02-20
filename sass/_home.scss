@@ -1,0 +1,25 @@
+//
+// Home
+// --------------------------------------------------
+
+
+// For fixed navbar
+body {
+  padding-top: $navbar-height + $navbar-margin-bottom;
+}
+
+// Featured Image
+
+.home {
+  .jumbotron {
+    background-color: transparent;
+    margin-top: -$navbar-margin-bottom;
+    background-image: url(../img/finger1080x1920.jpg);
+    background-position: center top;
+    background-size: cover;
+    margin-bottom: 0;
+    @media (min-width: $grid-float-breakpoint) {
+      background-image: url(../img/finger1920x1280.jpg);
+    }
+  }
+}
