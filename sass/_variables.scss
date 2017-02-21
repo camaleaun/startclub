@@ -104,6 +104,10 @@ $body-bg:               #448aff !default;
 // Basics of a navbar
 $navbar-margin-bottom:             $line-height-computed !default;
 
+$navbar-default-color:             #333 !default;
+$navbar-default-bg:                #fff !default;
+$navbar-default-border:            transparent !default;
+
 // Navbar toggle
 $navbar-default-toggle-hover-bg:           transparent !default;
 $navbar-default-toggle-icon-bar-bg:        #4caf50 !default;
